@@ -1,6 +1,6 @@
 const SKETCH_MARGIN = 32;
 
-const INITIAL_PLANES_COUNT = 300;
+const INITIAL_PLANES_COUNT = 100;
 
 const paper_planes = [];
 
