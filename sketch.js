@@ -1,6 +1,6 @@
 const SKETCH_MARGIN = 32;
 
-const INITIAL_PLANES_COUNT = 100;
+const INITIAL_PLANES_COUNT = 64;
 
 const paper_planes = [];
 
@@ -24,6 +24,9 @@ function setup() {
 
 function draw() {
   background(24);
+
+  fill(128);
+  text(paper_planes.length, 8, 20);
 
   if (keyIsPressed) {
     if (keyCode === UP_ARROW) {
